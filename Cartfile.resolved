@@ -1,0 +1,4 @@
+github "SnapKit/SnapKit" "5.0.1"
+github "Swinject/Swinject" "2.7.0"
+github "Swinject/SwinjectAutoregistration" "2.7.0"
+github "realm/realm-cocoa" "v5.3.5"
