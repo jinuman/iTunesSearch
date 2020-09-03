@@ -25,9 +25,7 @@
 		F8A41EDF24FFBA340019E12A /* AppDelegate+Ioc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A41EDE24FFBA340019E12A /* AppDelegate+Ioc.swift */; };
 		F8A41EE224FFBAAE0019E12A /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A41EE124FFBAAE0019E12A /* SearchComponent.swift */; };
 		F8A5693A2500F6C9000ADF1F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A569392500F6C9000ADF1F /* UIColor+Extensions.swift */; };
-		F8A6201324FCF3F600C03E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A6201224FCF3F600C03E90 /* Assets.xcassets */; };
 		F8A6202124FCF3F600C03E90 /* iTunesSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6202024FCF3F600C03E90 /* iTunesSearchAppTests.swift */; };
-		F8A6202C24FCF73000C03E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A6202B24FCF73000C03E90 /* LaunchScreen.storyboard */; };
 		F8A6203B24FCFAC200C03E90 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6203A24FCFAC200C03E90 /* SearchViewController.swift */; };
 		F8A6203D24FCFACC00C03E90 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6203C24FCFACC00C03E90 /* SearchViewModel.swift */; };
 		F8A6203F24FCFAD600C03E90 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6203E24FCFAD600C03E90 /* SearchRepository.swift */; };
@@ -68,6 +66,8 @@
 		F8D9871924FFE31C00536FB5 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9871824FFE31C00536FB5 /* DetailViewModel.swift */; };
 		F8D9871D24FFE67E00536FB5 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9871C24FFE67E00536FB5 /* DetailCoordinator.swift */; };
 		F8F80A7225010E4900064C1D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F80A7025010BA000064C1D /* MockService.swift */; };
+		F8F80A7C25011EDD00064C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F80A7925011EDD00064C1D /* LaunchScreen.storyboard */; };
+		F8F80A7D25011EDD00064C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F80A7A25011EDD00064C1D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,12 +100,9 @@
 		F8A41EE124FFBAAE0019E12A /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
 		F8A569392500F6C9000ADF1F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		F8A6200624FCF3F400C03E90 /* iTunesSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A6201224FCF3F600C03E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8A6201724FCF3F600C03E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A6201C24FCF3F600C03E90 /* iTunesSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A6202024FCF3F600C03E90 /* iTunesSearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchAppTests.swift; sourceTree = "<group>"; };
 		F8A6202224FCF3F600C03E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8A6202B24FCF73000C03E90 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A6203A24FCFAC200C03E90 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F8A6203C24FCFACC00C03E90 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		F8A6203E24FCFAD600C03E90 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
@@ -137,6 +134,9 @@
 		F8D9871824FFE31C00536FB5 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		F8D9871C24FFE67E00536FB5 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
 		F8F80A7025010BA000064C1D /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		F8F80A7925011EDD00064C1D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8F80A7A25011EDD00064C1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F80A7B25011EDD00064C1D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,10 +277,7 @@
 				F860DB7D24FEF35000C35695 /* Networking */,
 				F8A6203024FCFA4600C03E90 /* Scenes */,
 				F8815CC824FD11680022C465 /* StateManager */,
-				F8A6202D24FCFA2C00C03E90 /* Supporting Files */,
-				F8A6201724FCF3F600C03E90 /* Info.plist */,
-				F8A6202B24FCF73000C03E90 /* LaunchScreen.storyboard */,
-				F8A6201224FCF3F600C03E90 /* Assets.xcassets */,
+				F8A6202D24FCFA2C00C03E90 /* SupportingFiles */,
 			);
 			path = iTunesSearchApp;
 			sourceTree = "<group>";
@@ -296,19 +293,14 @@
 			path = iTunesSearchAppTests;
 			sourceTree = "<group>";
 		};
-		F8A6202D24FCFA2C00C03E90 /* Supporting Files */ = {
+		F8A6202D24FCFA2C00C03E90 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				F8A6202E24FCFA3600C03E90 /* Resources */,
+				F8F80A7A25011EDD00064C1D /* Assets.xcassets */,
+				F8F80A7B25011EDD00064C1D /* Info.plist */,
+				F8F80A7925011EDD00064C1D /* LaunchScreen.storyboard */,
 			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8A6202E24FCFA3600C03E90 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		F8A6203024FCFA4600C03E90 /* Scenes */ = {
@@ -637,8 +629,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A6201324FCF3F600C03E90 /* Assets.xcassets in Resources */,
-				F8A6202C24FCF73000C03E90 /* LaunchScreen.storyboard in Resources */,
+				F8F80A7D25011EDD00064C1D /* Assets.xcassets in Resources */,
+				F8F80A7C25011EDD00064C1D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,7 +864,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = iTunesSearchApp/Info.plist;
+				INFOPLIST_FILE = iTunesSearchApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -894,7 +886,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = iTunesSearchApp/Info.plist;
+				INFOPLIST_FILE = iTunesSearchApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
