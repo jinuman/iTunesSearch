@@ -9,6 +9,6 @@
 import Foundation
 
 public struct ApiResponse: Decodable {
-    let results: Array<Content>?
-    let resultCount: Int?        
+    public let results: Array<Content>?
+    public let resultCount: Int?        
 }

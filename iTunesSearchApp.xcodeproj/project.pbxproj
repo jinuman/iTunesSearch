@@ -25,7 +25,6 @@
 		F8A41EDF24FFBA340019E12A /* AppDelegate+Ioc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A41EDE24FFBA340019E12A /* AppDelegate+Ioc.swift */; };
 		F8A41EE224FFBAAE0019E12A /* SearchComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A41EE124FFBAAE0019E12A /* SearchComponent.swift */; };
 		F8A5693A2500F6C9000ADF1F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A569392500F6C9000ADF1F /* UIColor+Extensions.swift */; };
-		F8A6200E24FCF3F400C03E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6200D24FCF3F400C03E90 /* ViewController.swift */; };
 		F8A6201324FCF3F600C03E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A6201224FCF3F600C03E90 /* Assets.xcassets */; };
 		F8A6202124FCF3F600C03E90 /* iTunesSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6202024FCF3F600C03E90 /* iTunesSearchAppTests.swift */; };
 		F8A6202C24FCF73000C03E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A6202B24FCF73000C03E90 /* LaunchScreen.storyboard */; };
@@ -68,6 +67,7 @@
 		F8D9871624FFE2C100536FB5 /* DetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9871524FFE2C100536FB5 /* DetailComponent.swift */; };
 		F8D9871924FFE31C00536FB5 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9871824FFE31C00536FB5 /* DetailViewModel.swift */; };
 		F8D9871D24FFE67E00536FB5 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D9871C24FFE67E00536FB5 /* DetailCoordinator.swift */; };
+		F8F80A7225010E4900064C1D /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F80A7025010BA000064C1D /* MockService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,7 +100,6 @@
 		F8A41EE124FFBAAE0019E12A /* SearchComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComponent.swift; sourceTree = "<group>"; };
 		F8A569392500F6C9000ADF1F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		F8A6200624FCF3F400C03E90 /* iTunesSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A6200D24FCF3F400C03E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8A6201224FCF3F600C03E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A6201724FCF3F600C03E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A6201C24FCF3F600C03E90 /* iTunesSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +136,7 @@
 		F8D9871524FFE2C100536FB5 /* DetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailComponent.swift; sourceTree = "<group>"; };
 		F8D9871824FFE31C00536FB5 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		F8D9871C24FFE67E00536FB5 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		F8F80A7025010BA000064C1D /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,7 +280,6 @@
 				F8A6202D24FCFA2C00C03E90 /* Supporting Files */,
 				F8A6201724FCF3F600C03E90 /* Info.plist */,
 				F8A6202B24FCF73000C03E90 /* LaunchScreen.storyboard */,
-				F8A6200D24FCF3F400C03E90 /* ViewController.swift */,
 				F8A6201224FCF3F600C03E90 /* Assets.xcassets */,
 			);
 			path = iTunesSearchApp;
@@ -290,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A6202024FCF3F600C03E90 /* iTunesSearchAppTests.swift */,
+				F8F80A7025010BA000064C1D /* MockService.swift */,
 				F8A6202224FCF3F600C03E90 /* Info.plist */,
 				F8AF007C25007F870026B3DF /* sample.json */,
 			);
@@ -709,7 +709,6 @@
 				F8C32A7D25004543001EF1E5 /* FilterStateItem.swift in Sources */,
 				F8D9871324FFE27900536FB5 /* DetailViewController.swift in Sources */,
 				F8C32A5B2500224D001EF1E5 /* NavigationCoordinator.swift in Sources */,
-				F8A6200E24FCF3F400C03E90 /* ViewController.swift in Sources */,
 				F8A6203F24FCFAD600C03E90 /* SearchRepository.swift in Sources */,
 				F8C32A8725006BF7001EF1E5 /* FilterViewModel.swift in Sources */,
 				F8A6203D24FCFACC00C03E90 /* SearchViewModel.swift in Sources */,
@@ -734,6 +733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A6202124FCF3F600C03E90 /* iTunesSearchAppTests.swift in Sources */,
+				F8F80A7225010E4900064C1D /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

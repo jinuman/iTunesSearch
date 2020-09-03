@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Content: Decodable, Equatable {
+public class Content: Decodable, Equatable {
     
     var wrapperType: String?
     var kind: String?
@@ -74,7 +74,7 @@ class Content: Decodable, Equatable {
         case isStreamable
     }
     
-    static func == (lhs: Content, rhs: Content) -> Bool {
+    public static func == (lhs: Content, rhs: Content) -> Bool {
         return lhs.collectionId ?? 0 == rhs.collectionId ?? -1
     }
     

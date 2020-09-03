@@ -30,12 +30,32 @@ class iTunesSearchAppTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-                        
+    func testFileManager() throws {
+        
+        guard let contents = MockService.readJsonFile() else {return}
+        
+        viewModel.behaviorRelay.accept(contents)
+        
+        let artistName = try viewModel.behaviorRelay.toBlocking().first()?.first?.artistName
+        XCTAssertEqual(artistName, "Robert Zemeckis")
     }
     
-    func testTappedPlayPauseChangesIsPlaying() {
-      
+    func testRelays() {
+        
+        guard let contents = MockService.readJsonFile() else {return}
+        
+        // create scheduler
+        let rates = scheduler.createObserver([Content].self)
+                
+        viewModel.behaviorRelay.asDriver().drive(rates).disposed(by: disposeBag)
+        
+        let coldObservable = scheduler.createColdObservable([.next(10, contents.first),.next(20, contents.last)])
+        
+        scheduler.start()
+        
+        XCTAssertEqual(coldObservable.recordedEvents.first!.value.element!?.artistName, "Robert Zemeckis")
+        XCTAssertEqual(coldObservable.recordedEvents.last!.value.element!?.artistName, "Sherman Alexie")
+                
     }
 
     func testPerformanceExample() throws {

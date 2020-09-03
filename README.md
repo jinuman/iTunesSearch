@@ -1,7 +1,7 @@
 
  # iTunesSearch - iOS
 
-[![Swift Version][swift-image]][swift-url] [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Alamofire.svg)](https://img.shields.io/cocoapods/v/Alamofire.svg)
+[![Swift Version][swift-image]][swift-url]
 
 
 ToDoApp is an iOS application developed using RxSwift
@@ -37,7 +37,7 @@ ToDoApp is an iOS application developed using RxSwift
 
     
 ```ruby
-Run "carthage bootstrap"
+Run "carthage bootstrap --platform iOS"
 ```
 
 ```ruby
