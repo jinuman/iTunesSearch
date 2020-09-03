@@ -4,7 +4,7 @@
 [![Swift Version][swift-image]][swift-url]
 
 
-ToDoApp is an iOS application developed using RxSwift
+iTunes Search App is an iOS application developed using RxSwift
  
  
 
